@@ -1,10 +1,6 @@
 import pprint
 import unittest
 
-# Simple implementation of Bidirectional Associative Memory
-# BAM specifically belongs to the hetero-associative memory type, meaning it can return patterns of
-# different sizes when given a particular input pattern. This is in contrast to auto-associative memory,
-# where the input and output patterns are of the same size.
 class SimpleBAM(object):
     """
     Simple implementation of Bidirectional Associative Memory
